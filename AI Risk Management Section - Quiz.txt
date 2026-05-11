@@ -1,0 +1,177 @@
+AI RISK MANAGEMENT SECTION — QUIZ
+Cybersecurity Risk Management for IT Professionals
+15 Multiple Choice Questions | Intermediate to Hard
+
+=========================================================
+
+1. In 2023, Samsung banned generative AI tools company-wide after employees exposed sensitive data. What type of AI risk does this incident best illustrate?
+
+A) Data poisoning
+B) Model theft
+C) Shadow AI
+D) Adversarial evasion
+
+Answer: C
+
+---------------------------------------------------------
+
+2. Which of the following is NOT one of the seven characteristics of trustworthy AI as defined in the NIST AI Risk Management Framework?
+
+A) Valid and Reliable
+B) Profitable and Scalable
+C) Secure and Resilient
+D) Fair with Bias Managed
+
+Answer: B
+
+---------------------------------------------------------
+
+3. Under the EU AI Act, what is the maximum financial penalty for deploying a prohibited AI practice?
+
+A) 7.5 million EUR or 1% of global annual turnover
+B) 15 million EUR or 3% of global annual turnover
+C) 25 million EUR or 5% of global annual turnover
+D) 35 million EUR or 7% of global annual turnover
+
+Answer: D
+
+---------------------------------------------------------
+
+4. An attacker systematically queries a proprietary AI model thousands of times to replicate its behavior and steal its intellectual property. What type of adversarial AI attack is this?
+
+A) Prompt injection
+B) Data poisoning
+C) Model extraction
+D) Evasion attack
+
+Answer: C
+
+---------------------------------------------------------
+
+5. In an AI governance framework, which phase should an organization complete FIRST?
+
+A) Implement technical controls such as DLP and API gateways
+B) Discovery — inventory all AI tools in use, including shadow AI
+C) Draft and publish the AI risk policy
+D) Deploy mandatory AI awareness training for all employees
+
+Answer: B
+
+---------------------------------------------------------
+
+6. Which core function of the NIST AI RMF is described as the "foundational, cross-cutting function" that enables and supports all other functions?
+
+A) Govern
+B) Map
+C) Measure
+D) Manage
+
+Answer: A
+
+---------------------------------------------------------
+
+7. The EU AI Act classifies AI systems used in employment decisions such as recruitment and performance evaluation under which risk tier?
+
+A) Unacceptable risk
+B) Minimal risk
+C) Limited risk
+D) High risk
+
+Answer: D
+
+---------------------------------------------------------
+
+8. A threat actor uses only 3 seconds of a CEO's recorded speech to generate a convincing synthetic voice for a fraudulent wire transfer request. Which AI-powered attack technique does this describe?
+
+A) Polymorphic malware generation
+B) Voice cloning for vishing
+C) Automated OSINT reconnaissance
+D) Adversarial prompt injection
+
+Answer: B
+
+---------------------------------------------------------
+
+9. An organization wants to use the NIST AI RMF to identify all stakeholders affected by an AI system and document its intended purpose, data sources, and risk level. Which core function are they performing?
+
+A) Govern
+B) Map
+C) Measure
+D) Manage
+
+Answer: B
+
+---------------------------------------------------------
+
+10. Under the EU AI Act, General-Purpose AI (GPAI) models are classified as having "systemic risk" when they exceed what computational training threshold?
+
+A) 10^20 FLOPs
+B) 10^22 FLOPs
+C) 10^25 FLOPs
+D) 10^28 FLOPs
+
+Answer: C
+
+---------------------------------------------------------
+
+11. Which of the following is a key reason why traditional risk management frameworks are insufficient for addressing AI risks?
+
+A) They were designed exclusively for cloud-based systems
+B) They only address financial risks, not technology risks
+C) AI models evolve continuously, causing risk profiles to shift without any configuration change
+D) They require annual regulatory certification that AI systems cannot pass
+
+Answer: C
+
+---------------------------------------------------------
+
+12. An organization's AI risk policy specifies that confidential and restricted data must never be processed by external AI tools. What complementary technical control would best enforce this policy?
+
+A) Data Loss Prevention (DLP) rules configured to block sensitive data sent to unauthorized AI platforms
+B) Requiring all employees to sign an acceptable use agreement
+C) Publishing an approved AI tools list on the company intranet
+D) Conducting quarterly AI risk awareness surveys
+
+Answer: A
+
+---------------------------------------------------------
+
+13. Which of the following AI practices is explicitly BANNED under the EU AI Act?
+
+A) Using AI chatbots for customer service without disclosure
+B) Deploying AI for spam filtering in email systems
+C) Real-time remote biometric identification in public spaces for general surveillance
+D) Using AI to prioritize vulnerabilities by exploitability
+
+Answer: C
+
+---------------------------------------------------------
+
+14. WormGPT and FraudGPT are examples of underground AI tools purpose-built for cybercrime. What distinguishes them from mainstream LLMs?
+
+A) They use more advanced transformer architectures than commercial models
+B) They are trained exclusively on zero-day exploit databases
+C) They operate without safety guardrails and are trained on malicious data
+D) They can only generate code, not natural language text
+
+Answer: C
+
+---------------------------------------------------------
+
+15. An organization is building its AI governance structure and needs to assign responsibility for conducting Data Protection Impact Assessments (DPIAs) on AI systems that process personal data. Which role should own this responsibility?
+
+A) Chief AI Officer
+B) Business Unit Owners
+C) CISO / Security Team
+D) Data Privacy Officer
+
+Answer: D
+
+=========================================================
+
+ANSWER KEY SUMMARY
+1-C  |  2-B  |  3-D  |  4-C  |  5-B
+6-A  |  7-D  |  8-B  |  9-B  |  10-C
+11-C |  12-A |  13-C |  14-C |  15-D
+
+Answer Distribution: A=3, B=4, C=5, D=3

@@ -1,0 +1,155 @@
+Foundations of Cybersecurity Risk Management — Quiz (10 Questions)
+Course: Cybersecurity Risk Management for IT Professionals
+Section 2: Foundations of Cybersecurity Risk Management
+================================================================
+
+QUESTION 1 — What is Risk (Cybersecurity Definition)
+Category: Risk definition
+
+In cybersecurity, risk is most accurately defined as:
+
+A) The total number of cyberattacks an organization faces in a year
+B) The likelihood that a vulnerability will be exploited by a threat
+C) The financial cost of implementing security controls
+D) The probability that an employee will make a mistake
+
+Correct Answer: B
+Explanation: In cybersecurity, risk is the likelihood that a vulnerability (a weakness in the security system or setup) will be exploited by a threat. Reducing either threats or vulnerabilities lowers risk.
+
+================================================================
+
+QUESTION 2 — Risk Definitions Compared (Scenario)
+Category: Risk definition
+
+SCENARIO: A CISO tells the board: "Our risk is that an unpatched server will be exploited by ransomware operators." A board member asks how this definition compares to the ISO definition of risk. What's the best answer?
+
+A) They mean the same thing
+B) The CISO's definition is the cybersecurity-specific framing (threat + vulnerability), while ISO defines risk more broadly as the effect of uncertainty on objectives
+C) The ISO definition only applies to financial risk
+D) The CISO's definition is wrong — risk is always defined as financial loss
+
+Correct Answer: B
+Explanation: The cybersecurity definition frames risk as the likelihood a vulnerability will be exploited by a threat. The ISO definition is broader — "effect of uncertainty on objectives" — focusing on how incomplete knowledge affects organizational decision-making.
+
+================================================================
+
+QUESTION 3 — Types of Risk: Operational
+Category: Types of risk
+
+Which of the following is an example of Operational Risk?
+
+A) A new law requires companies to disclose breaches within 72 hours
+B) A power outage takes down the data center, and employees fail to follow the backup procedure
+C) A competitor releases a new product that takes market share
+D) A customer publicly complains about a product defect on social media
+
+Correct Answer: B
+Explanation: Operational risk refers to risks from internal failures in people or systems — employees failing to follow security policies and power outages are textbook examples. The other options describe compliance, strategic, and reputational risks respectively.
+
+================================================================
+
+QUESTION 4 — Types of Risk: Compliance (Scenario)
+Category: Types of risk
+
+SCENARIO: A publicly traded company fails to maintain accurate financial records as required by Sarbanes-Oxley. Which type of risk is the company primarily exposed to?
+
+A) Operational Risk
+B) Strategic Risk
+C) Compliance Risk
+D) Reputational Risk
+
+Correct Answer: C
+Explanation: Compliance risk refers to exposure to legal penalties and material loss from failing to comply with industry laws and regulations. Sarbanes-Oxley applies to companies with publicly traded stock, and violations fall squarely under compliance risk.
+
+================================================================
+
+QUESTION 5 — Types of Risk: Reputational
+Category: Types of risk
+
+Which scenario best illustrates Reputational Risk?
+
+A) A credit card processor experiences a temporary outage during a holiday sale
+B) A car manufacturer faces a major recall due to product defects, and media coverage causes customers to switch to competitors
+C) A company's server room loses power due to a storm
+D) An employee forgets to apply a critical security patch
+
+Correct Answer: B
+Explanation: Reputational risk is the loss of a company's reputation from events like data breaches, product failures, lawsuits, or negative publicity. A recall that drives customers to competitors is a classic reputational risk.
+
+================================================================
+
+QUESTION 6 — Types of Risk: Strategic vs. Financial
+Category: Types of risk
+
+An investment firm allows clients to invest in cryptocurrency but may change this offering if a new form of digital money emerges. This is an example of:
+
+A) Financial Risk
+B) Strategic Risk
+C) Operational Risk
+D) Compliance Risk
+
+Correct Answer: B
+Explanation: Strategic risk refers to risks associated with operations in a specific industry within a specific period of time. The firm's decision to adjust its offering in response to changes in the industry is a strategic risk decision, not financial (which deals with how payments are handled).
+
+================================================================
+
+QUESTION 7 — Threats
+Category: Threat actors
+
+Which of the following is NOT one of the threat actor categories covered in this section?
+
+A) Black Hats
+B) Hacktivists
+C) Script Kiddies
+D) Nation States
+
+Correct Answer: C
+Explanation: The threat actors covered in this section are Black Hats, Hacktivists, Nation States, Employees, Disgruntled Ex-Employees, and Insiders/Saboteurs. Script kiddies — though real-world threat actors — are not covered in this lesson.
+
+================================================================
+
+QUESTION 8 — Threats (Scenario)
+Category: Threat actors
+
+SCENARIO: A terminated employee still has active VPN credentials and uses them from home to delete critical files from the company's shared drive. Which threat actor category best describes this?
+
+A) Black Hat
+B) Nation State
+C) Disgruntled Ex-Employee
+D) Hacktivist
+
+Correct Answer: C
+Explanation: A disgruntled ex-employee uses leftover access (often due to poor offboarding) to cause harm. This is distinct from an insider (still employed), a black hat (external hacker for profit), or a hacktivist (ideologically motivated).
+
+================================================================
+
+QUESTION 9 — Risk Management Roles
+Category: Risk management roles
+
+Which role is primarily responsible for making the final decisions regarding risk management?
+
+A) Risk Manager
+B) Risk Management Specialists
+C) Subject Matter Experts
+D) Risk Owner
+
+Correct Answer: D
+Explanation: The Risk Owner — which can be an individual, a group of people, or even another company — is primarily responsible for making the final decisions about how a risk is managed. The Risk Manager establishes the framework and leads; specialists execute; SMEs provide identification recommendations.
+
+================================================================
+
+QUESTION 10 — Risk Management Types (Scenario)
+Category: Risk management types
+
+SCENARIO: Your security team holds a workshop where they ask "What could go wrong with our customer database?" and capture every possible failure scenario on a whiteboard. Which type of risk management activity is this?
+
+A) Compliance Risk Management
+B) Risk Management Sessions
+C) Technical / Vulnerability Risk Management
+D) Risk Management by Threat Monitoring
+
+Correct Answer: B
+Explanation: Risk Management Sessions are brainstorming sessions that ask what could possibly go wrong with assets. Compliance risk management uses pre-established criteria (checklists); technical/vulnerability focuses on OS flaws; threat monitoring watches the environment for incoming threats.
+
+================================================================
+END OF QUIZ

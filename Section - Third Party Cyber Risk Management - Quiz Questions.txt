@@ -1,0 +1,156 @@
+Third Party Cyber Risk Management — Quiz (10 Questions)
+Course: Cybersecurity Risk Management for IT Professionals
+Section: Third Party Cyber Risk Management
+================================================================
+
+QUESTION 1 — Supply Chain Attacks
+Category: TPCRM fundamentals
+
+What is a supply chain attack?
+
+A) An attack that targets an organization's physical logistics and shipping operations
+B) An attack in which cyber criminals infiltrate a target through an outside partner or provider that has access to the target's systems, network, or data
+C) An attack that exclusively targets manufacturing control systems
+D) A denial-of-service attack against a company's suppliers
+
+Correct Answer: B
+Explanation: Supply chain attacks succeed by compromising an outside partner or provider that has trusted access to the target's systems, network, or data — turning that trusted connection into the attack path.
+
+================================================================
+
+QUESTION 2 — SolarWinds
+Category: TPCRM fundamentals (real-world example)
+
+In the SolarWinds attack, approximately how many organizations and customers were affected after attackers injected malware into the company's software?
+
+A) Around 25 organizations and 1,800 customers
+B) Around 250 organizations and 18,000 customers
+C) Around 2,500 organizations and 180,000 customers
+D) Around 100 organizations and 5,000 customers
+
+Correct Answer: B
+Explanation: Over 250 organizations and more than 18,000 customers were affected after attackers injected malware into the SolarWinds "Orion" software — the textbook example of how one successful supply chain compromise cascades into a successful attack against many.
+
+================================================================
+
+QUESTION 3 — TPCRM Definition
+Category: TPCRM fundamentals
+
+Third-Party Cyber Risk Management (TPCRM) is best described as:
+
+A) A set of contracts that transfers all cyber risk to vendors
+B) A one-time vendor audit conducted before signing a contract
+C) An organized approach to analyzing, controlling, monitoring, and mitigating cyber risks associated with third-party vendors, suppliers, and service providers
+D) A certification that vendors must obtain before working with an organization
+
+Correct Answer: C
+Explanation: TPCRM is an organized, ongoing approach covering analysis, control, monitoring, and mitigation of cyber risks tied to third-party vendors, suppliers, and service providers. It is not a one-time activity and not something that can be contractually transferred away.
+
+================================================================
+
+QUESTION 4 — Inherent vs Residual Risk
+Category: Risk concepts
+
+A vendor has been assessed and several security controls are now in place. The risks that STILL remain after all those controls have been accounted for are referred to as:
+
+A) Inherent risk
+B) Residual risk
+C) Accepted risk
+D) Transferred risk
+
+Correct Answer: B
+Explanation: Residual risk is what remains after security controls have been applied. Inherent risk, by contrast, is the risk present just by dealing with the third party — before any controls are considered.
+
+================================================================
+
+QUESTION 5 — 6 Steps of TPCRM
+Category: TPCRM process
+
+You are setting up a TPCRM program. Which of the following represents the correct early-stage ordering?
+
+A) Assign ratings → Identify vendors → Evaluate risk → Send questionnaires
+B) Identify vendors → Evaluate risk (classify by inherent risk) → Send questionnaires to determine residual risk → Assign ratings
+C) Send questionnaires → Identify vendors → Assign ratings → Evaluate risk
+D) Continuous monitoring → Identify vendors → Assign ratings → Send questionnaires
+
+Correct Answer: B
+Explanation: The 6 steps begin with vendor identification, then risk evaluation based on inherent risk, then questionnaires to determine residual risk, followed by assigning ratings, addressing risks by priority, and finally continuous monitoring.
+
+================================================================
+
+QUESTION 6 — Risk Ratings and Mitigation Timelines
+Category: TPCRM process
+
+A vendor risk is classified as HIGH. According to the TPCRM scorecard approach, how should it be handled?
+
+A) Accept the risk or deploy mitigation steps over an extended period of time
+B) Deploy mitigation steps within a stipulated time frame
+C) Deploy mitigation steps immediately
+D) Wait until the next annual reassessment to decide
+
+Correct Answer: C
+Explanation: High risks require immediate mitigation. Medium risks are mitigated within a stipulated time frame, and low risks may be accepted or mitigated over an extended period of time.
+
+================================================================
+
+QUESTION 7 — Point-in-Time Assessments
+Category: Continuous monitoring
+
+Why is relying solely on annual questionnaires to manage third-party cyber risk considered insufficient?
+
+A) Questionnaires are too expensive to send out annually
+B) Vendors are not required to respond to questionnaires
+C) A questionnaire freezes a moment in time while vendor posture changes daily, meaning a snapshot from months ago will not reflect today's zero-days or new exposures
+D) Questionnaires are not aligned with any regulatory frameworks
+
+Correct Answer: C
+Explanation: Point-in-time assessments produce a snapshot, not reality. Vendor posture changes daily as new CVEs, misconfigurations, and breaches emerge — which is why continuous monitoring must augment (not replace) periodic assessments.
+
+================================================================
+
+QUESTION 8 — Continuous Monitoring Signals
+Category: Continuous monitoring
+
+Which of the following is NOT typically a signal used in continuous third-party monitoring?
+
+A) External attack surface data (exposed services, open ports, cloud misconfigurations, SSL/TLS issues)
+B) Threat intelligence feeds (active campaign mentions, breach database hits, dark web credential leaks)
+C) Security ratings platforms (BitSight, SecurityScorecard, UpGuard, Panorays)
+D) The vendor's annual marketing brochure
+
+Correct Answer: D
+Explanation: Modern continuous monitoring draws on external attack surface data, threat intelligence feeds, and security ratings platforms. Marketing materials are not a security signal.
+
+================================================================
+
+QUESTION 9 — SBOM Definition
+Category: SBOMs
+
+What is a Software Bill of Materials (SBOM)?
+
+A) A financial invoice sent from a software vendor to a customer
+B) A machine-readable inventory of every component, library, and dependency inside a piece of software
+C) A user manual describing the features of a software product
+D) A contract defining licensing obligations between software providers
+
+Correct Answer: B
+Explanation: An SBOM is a machine-readable inventory (typically JSON or XML) of components, versions, licenses, and dependencies inside a piece of software. It works like a food ingredients label — it tells you exactly what is inside.
+
+================================================================
+
+QUESTION 10 — SBOM Formats
+Category: SBOMs
+
+Which two SBOM formats are the main standards in use today?
+
+A) PDF and DOCX
+B) SPDX (Linux Foundation, ISO/IEC 5962:2021) and CycloneDX (OWASP)
+C) YAML and TOML
+D) PNG and SVG
+
+Correct Answer: B
+Explanation: SPDX, backed by the Linux Foundation and standardized as ISO/IEC 5962:2021, and CycloneDX, an OWASP standard, are the two dominant SBOM formats. Both are machine-readable and integrate with CI/CD pipelines; the choice depends on ecosystem and tooling preference.
+
+================================================================
+
+End of Quiz

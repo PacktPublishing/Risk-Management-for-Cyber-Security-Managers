@@ -1,0 +1,155 @@
+Information Classification & Security Controls — Quiz (10 Questions)
+Course: Cybersecurity Risk Management for IT Professionals
+Section 6: Information Classification & Security Controls
+================================================================
+
+QUESTION 1 — Information Classification
+Category: Data classification
+
+Which data classification category includes client names, addresses, and telephone numbers?
+
+A) Confidential Data
+B) Personal Information
+C) Internal Company Data
+D) Public Information
+
+Correct Answer: B
+Explanation: Personal Information includes client-specific data such as names, addresses, and telephone numbers. Confidential Data is restricted to authorized users only, Internal Company Data covers employee salaries and technical info, and Public Information is accessible by anyone.
+
+================================================================
+
+QUESTION 2 — Information Classification (Scenario)
+Category: Data classification
+
+SCENARIO: A company stores employee salary records, internal technical documentation, and organizational charts on a shared drive. What classification should this data receive?
+
+A) Public Information
+B) Personal Information
+C) Internal Company Data
+D) Confidential Data
+
+Correct Answer: C
+Explanation: Employee salaries, technical information, and internal organizational data fall under Internal Company Data — information that is internal to the company but not necessarily restricted to specific authorized individuals like confidential data would be.
+
+================================================================
+
+QUESTION 3 — Security Controls: Types
+Category: Security controls
+
+Which category of security controls includes doors, walls, and security guards?
+
+A) Logical Controls
+B) Administrative Controls
+C) Physical Controls
+D) Detective Controls
+
+Correct Answer: C
+Explanation: Physical Controls are tangible barriers and protections — doors, walls, locks, and security guards. Logical Controls protect networks, databases, and applications. Administrative Controls cover security policies and company culture.
+
+================================================================
+
+QUESTION 4 — Security Controls: Categories (Scenario)
+Category: Security controls
+
+SCENARIO: After a malware infection, your security team deploys anti-malware tools to clean affected systems and restores files from backups. These actions are examples of which type of control?
+
+A) Preventative Controls
+B) Detective Controls
+C) Corrective Controls
+D) Administrative Controls
+
+Correct Answer: C
+Explanation: Corrective Controls are used to fix or recover from a security incident — backups and anti-malware remediation are classic examples. Preventative controls stop incidents before they happen; detective controls identify incidents in progress.
+
+================================================================
+
+QUESTION 5 — Security Controls: Preventative
+Category: Security controls
+
+Which of the following is a Preventative Control?
+
+A) Security cameras
+B) Honeypots
+C) Firewalls
+D) Backups
+
+Correct Answer: C
+Explanation: Preventative controls are the first line of defense and include passwords, firewalls, encryption, 2FA/MFA, anti-malware, security policies, and training. Security cameras and honeypots are detective controls; backups are corrective/recovery controls.
+
+================================================================
+
+QUESTION 6 — Defense in Depth
+Category: Defense in depth
+
+The primary goal of Defense in Depth is to:
+
+A) Use a single, extremely strong security control to protect all assets
+B) Ensure there is no single point of security failure
+C) Reduce the number of security controls to simplify management
+D) Focus all security investment on perimeter defenses
+
+Correct Answer: B
+Explanation: Defense in Depth uses multiple layers of security for holistic protection. The primary goal is to ensure there is no single point of security failure — if one control fails, others still protect the asset.
+
+================================================================
+
+QUESTION 7 — Defense in Depth Layers (Scenario)
+Category: Defense in depth
+
+SCENARIO: An attacker sends a phishing email that bypasses the email gateway (perimeter). The user clicks the link, but the endpoint anti-malware (host layer) blocks the payload. Which Defense in Depth principle does this demonstrate?
+
+A) That perimeter security is unnecessary
+B) That multiple layers compensate when one layer fails
+C) That anti-malware alone is sufficient
+D) That phishing attacks cannot be prevented
+
+Correct Answer: B
+Explanation: This demonstrates Defense in Depth working as designed — the perimeter layer failed, but the host layer (anti-malware) caught the threat. Multiple overlapping layers ensure that a single failure does not result in a breach.
+
+================================================================
+
+QUESTION 8 — Defense in Depth: Detection Controls
+Category: Defense in depth
+
+Which of the following is a Detection Control — designed to identify situations where a hacker has bypassed a security control?
+
+A) Encryption
+B) Firewalls
+C) Intrusion Detection System (IDS)
+D) MFA
+
+Correct Answer: C
+Explanation: Detection controls are the second line of defense and include IDS, trip wires, honeypots, and security cameras/doors. Their purpose is to identify when an attacker has bypassed preventative controls. Encryption, firewalls, and MFA are all preventative controls.
+
+================================================================
+
+QUESTION 9 — Defense in Depth: Slow Down Controls
+Category: Defense in depth
+
+What is the purpose of Slow Down Controls such as obfuscation, timeouts, and large file transfer restrictions?
+
+A) To prevent attackers from gaining initial access
+B) To detect attackers as they move through the network
+C) To impede the amount of damage a hacker can cause after gaining entry
+D) To recover systems after an attack
+
+Correct Answer: C
+Explanation: Slow Down Controls are designed to limit damage after an attacker has already gained access. Obfuscation (renaming important files), timeouts, and large file transfer controls all make it harder for attackers to find and exfiltrate valuable data quickly.
+
+================================================================
+
+QUESTION 10 — Defense in Depth: Recovery Controls (Scenario)
+Category: Defense in depth
+
+SCENARIO: After a ransomware attack encrypts critical files, the IT team restores operations within hours using offsite backups and a pre-configured warm site. Which category of Defense in Depth controls made this possible?
+
+A) Preventative Controls
+B) Detection Controls
+C) Slow Down Controls
+D) Recovery Controls
+
+Correct Answer: D
+Explanation: Recovery Controls allow for quick resumption of normal operations when all other controls have failed. Backups and warm/hot sites are the primary recovery controls — they are the last line of defense in the Defense in Depth model.
+
+================================================================
+END OF QUIZ

@@ -1,0 +1,155 @@
+Regulatory & Compliance Frameworks — Quiz (10 Questions)
+Course: Cybersecurity Risk Management for IT Professionals
+Section 11: Regulatory & Compliance Frameworks
+================================================================
+
+QUESTION 1 — Regulatory Landscape (Scenario)
+Category: Regulatory landscape navigation
+
+SCENARIO: A US-listed financial company with offices in Germany suffers a ransomware attack that compromises customer data. Which of the following is TRUE about their reporting obligations?
+
+A) They only need to report to the SEC since they are a US company
+B) They may need to report under SEC rules, GDPR, NIS2, DORA, and state breach notification laws — each with different timelines
+C) EU regulations do not apply because the company is headquartered in the US
+D) They only need to report if the attack caused more than $1 million in damages
+
+Correct Answer: B
+Explanation: A US-listed company with EU operations faces overlapping obligations: SEC 8-K (4 business days from materiality determination), GDPR Article 33 (72 hours), NIS2 incident reporting (24h/72h/1 month), DORA if they are a financial entity, and US state breach laws. Each has different clocks, recipients, and content requirements.
+
+================================================================
+
+QUESTION 2 — Regulatory Landscape
+Category: Regulatory landscape navigation
+
+Why is compliance — rather than threat intelligence — typically the primary driver of risk management budget in organizations?
+
+A) Because threat intelligence is free and does not require funding
+B) Because boards and CFOs fund risk work most readily when it is tied to avoiding fines, disclosure obligations, or regulator consent orders
+C) Because compliance eliminates all cyber risks
+D) Because threat intelligence is only relevant to government agencies
+
+Correct Answer: B
+Explanation: Boards and CFOs respond to concrete regulatory consequences — fines, mandatory disclosures, and consent orders. Hypothetical attacker scenarios rarely unlock budget on their own. Compliance is the argument that typically opens the funding conversation.
+
+================================================================
+
+QUESTION 3 — SEC Disclosure Rules
+Category: SEC Cybersecurity Disclosure Rules
+
+Under the SEC Cybersecurity Disclosure Rules, when does the 4-business-day clock for filing a Form 8-K Item 1.05 begin?
+
+A) When the cybersecurity incident is first discovered
+B) When the company determines the incident is material
+C) When law enforcement is notified
+D) When the company's stock price drops as a result of the incident
+
+Correct Answer: B
+Explanation: The 4-business-day filing deadline starts when the company determines the incident is material — not when it is first discovered. Materiality is judged from the investor's perspective: would the information alter the total mix of information available to a reasonable investor?
+
+================================================================
+
+QUESTION 4 — SEC Enforcement (Scenario)
+Category: SEC Cybersecurity Disclosure Rules
+
+SCENARIO: In 2023, the SEC brought charges against SolarWinds Corp. and its CISO Timothy G. Brown. What made this enforcement action a landmark case?
+
+A) It was the first time the SEC fined a company more than $1 billion
+B) It signaled the SEC's willingness to pursue individual officer charges for allegedly misleading cybersecurity disclosures
+C) SolarWinds was banned from operating in the United States
+D) The SEC required SolarWinds to open-source all of its security tools
+
+Correct Answer: B
+Explanation: The SEC v. SolarWinds case was landmark because it included charges against the CISO personally, signaling that individual officers — not just the company — could face enforcement action for misleading public statements about cybersecurity practices. This sent a shockwave through the CISO community.
+
+================================================================
+
+QUESTION 5 — NIS2 Scope
+Category: NIS2
+
+Under NIS2, what is the difference between "essential" and "important" entities?
+
+A) Essential entities are in the EU; important entities are outside the EU
+B) Essential entities (energy, health, banking, transport) face stricter requirements and higher penalties than important entities (postal, manufacturing, food)
+C) Essential entities must report incidents; important entities do not
+D) There is no practical difference — the terms are interchangeable
+
+Correct Answer: B
+Explanation: NIS2 classifies covered entities into two tiers. Essential entities (energy, transport, health, banking, digital infrastructure) face the strictest requirements and penalties up to €10M or 2% of global turnover. Important entities (postal, waste, food, manufacturing, digital providers) face slightly lighter requirements with penalties up to €7M or 1.4% of global turnover. Both tiers include personal liability for senior management.
+
+================================================================
+
+QUESTION 6 — NIS2 Incident Reporting
+Category: NIS2
+
+Under NIS2, the incident reporting process uses a three-stage timeline. What are the three stages?
+
+A) 1 hour (initial), 24 hours (detailed), 7 days (final)
+B) 24 hours (early warning), 72 hours (detailed notification), 1 month (final report)
+C) 48 hours (initial), 1 week (detailed), 6 months (final)
+D) Reporting is only required annually in the organization's compliance report
+
+Correct Answer: B
+Explanation: NIS2 requires a three-stage incident reporting process: an early warning within 24 hours, a detailed notification within 72 hours, and a final report within one month. This tiered approach allows regulators to get early visibility while giving organizations time to complete their investigation.
+
+================================================================
+
+QUESTION 7 — DORA (Scenario)
+Category: DORA
+
+SCENARIO: A major US-based cloud provider hosts infrastructure for several EU banks. Under DORA, can this non-EU company be subject to EU regulation?
+
+A) No — DORA only applies to companies headquartered in the EU
+B) Yes — if designated as a Critical Third-Party Provider (CTPP) by the European Supervisory Authorities, non-EU cloud providers fall under DORA
+C) Only if the cloud provider has a physical office in the EU
+D) Only if the cloud provider voluntarily opts into DORA compliance
+
+Correct Answer: B
+Explanation: DORA has extraterritorial reach. Non-EU cloud providers serving EU financial entities can be designated as Critical Third-Party Providers (CTPPs) by the European Supervisory Authorities. Once designated, they fall under DORA's ICT third-party risk management requirements — regardless of where they are headquartered.
+
+================================================================
+
+QUESTION 8 — GDPR Enforcement (Scenario)
+Category: Privacy regulations
+
+SCENARIO: In 2023, Meta was fined €1.2 billion by the Irish Data Protection Commission — the largest GDPR fine to date. What was the primary violation?
+
+A) Failing to encrypt user passwords
+B) Unlawful EU-US data transfers without adequate safeguards
+C) Selling user data to advertisers without consent
+D) Failing to appoint a Data Protection Officer
+
+Correct Answer: B
+Explanation: Meta's record €1.2B fine was for transferring EU users' personal data to the US without adequate safeguards following the invalidation of the EU-US Privacy Shield. The case signaled that international data transfers are under intense regulatory scrutiny and require robust legal mechanisms.
+
+================================================================
+
+QUESTION 9 — US State Privacy Laws
+Category: Privacy regulations
+
+What makes California's CCPA/CPRA unique compared to most other US state privacy laws?
+
+A) It is the only state law that requires data encryption
+B) It includes a private right of action allowing consumers to sue for certain data breaches
+C) It only applies to companies headquartered in California
+D) It exempts small businesses from all requirements
+
+Correct Answer: B
+Explanation: California's CCPA/CPRA is the strictest US state privacy law and uniquely includes a private right of action, allowing individual consumers to sue companies for certain categories of data breaches. Most other state privacy laws are enforced exclusively through the state Attorney General's office, with no private right of action.
+
+================================================================
+
+QUESTION 10 — DPIA Triggers
+Category: DPIA
+
+Under GDPR Article 35, a Data Protection Impact Assessment (DPIA) is mandatory in which of the following situations?
+
+A) Any time a company collects an email address
+B) When processing is likely to result in a high risk to the rights and freedoms of individuals — such as large-scale monitoring, systematic profiling, or use of new technologies like AI
+C) Only when processing data of EU government employees
+D) Only when a company has more than 500 employees
+
+Correct Answer: B
+Explanation: GDPR Article 35 requires a DPIA when processing is "likely to result in a high risk" — triggered by large-scale monitoring, systematic profiling/automated decision-making, large-scale processing of special category data, or use of new technologies like AI and biometrics. National DPAs also publish lists of processing that always requires a DPIA.
+
+================================================================
+END OF QUIZ

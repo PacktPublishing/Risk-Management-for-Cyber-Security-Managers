@@ -1,0 +1,230 @@
+Quantitative Risk Analysis & FAIR — Quiz (15 Questions)
+Course: Cybersecurity Risk Management for IT Professionals
+Section: Quantitative Risk Analysis & FAIR
+================================================================
+
+QUESTION 1 — Qualitative vs. Quantitative
+Category: Qualitative vs. quantitative trade-offs
+
+A CISO presents a 5×5 risk matrix to the board showing a ransomware threat rated as "High" (Likelihood 4 × Impact 4 = 16). The CFO asks: "How much budget should we allocate to address this?" Why does the matrix fail to answer this question?
+
+A) The matrix is using the wrong scale — it should be 3×3 instead of 5×5
+B) Risk matrices use ordinal labels that cannot be converted to dollar values, making cost-benefit analysis impossible
+C) The CISO should have rated the risk as "Critical" instead of "High"
+D) Risk matrices are only valid for compliance risks, not operational risks
+
+Correct Answer: B
+Explanation: Risk matrices produce ordinal rankings (e.g., High, Medium, Low) that indicate relative priority but carry no monetary meaning. Without dollar values, executives cannot compare the cost of a control against the expected loss reduction — which is exactly the gap quantitative analysis fills.
+
+================================================================
+
+QUESTION 2 — Qualitative vs. Quantitative
+Category: Qualitative vs. quantitative trade-offs
+
+When is a qualitative risk assessment the MORE appropriate choice over a quantitative approach?
+
+A) When presenting risk to the board of directors for budget approval
+B) When performing initial risk screening and triage across a large number of threats
+C) When negotiating cyber insurance premiums with an underwriter
+D) When building a business case to justify a $500K security investment
+
+Correct Answer: B
+Explanation: Qualitative methods are faster and consensus-friendly, making them ideal for initial screening and triage when you need to quickly sort a large number of risks by relative priority. Quantitative analysis is better suited for high-stakes decisions involving dollar amounts — board presentations, insurance negotiations, and investment justifications.
+
+================================================================
+
+QUESTION 3 — Risk Matrix Pitfalls
+Category: Qualitative vs. quantitative trade-offs
+
+Tony Cox's research on risk matrices demonstrates that they can produce "ranking errors." What does this mean in practice?
+
+A) The colors in the matrix can be confusing to colorblind executives
+B) Two risks with very different actual loss exposures can receive the same rating, leading to mispriorization
+C) Risk matrices always overestimate the likelihood of low-frequency events
+D) Risk matrices cannot be used with more than 10 risks at a time
+
+Correct Answer: B
+Explanation: Cox showed that risk matrices can assign identical ratings to risks with vastly different actual magnitudes. For example, a rare but catastrophic event and a frequent but low-impact event might both score "Medium," even though their expected losses differ by orders of magnitude. This makes prioritization unreliable.
+
+================================================================
+
+QUESTION 4 — FAIR Ontology
+Category: FAIR ontology
+
+In the FAIR model, Risk is decomposed into which two top-level components?
+
+A) Threat Frequency and Vulnerability Score
+B) Loss Event Frequency (LEF) and Loss Magnitude (LM)
+C) Probability of Attack and Cost of Breach
+D) Annualized Rate of Occurrence and Single Loss Expectancy
+
+Correct Answer: B
+Explanation: FAIR decomposes Risk into Loss Event Frequency (how often a loss event is expected to occur) and Loss Magnitude (how much loss is expected per event). All other factors in the FAIR ontology — Threat Event Frequency, Vulnerability, Primary Loss, Secondary Loss — are sub-factors of these two components.
+
+================================================================
+
+QUESTION 5 — FAIR Ontology
+Category: FAIR ontology
+
+SCENARIO: Your organization experienced 120 phishing emails targeting the finance team over the past year. Of those, 18 resulted in a user clicking a malicious link, and 3 led to actual credential compromise. In FAIR terminology, what is the Vulnerability in this scenario?
+
+A) 120 — the total number of phishing emails received
+B) 18/120 = 15% — the click-through rate
+C) 3/120 = 2.5% — the ratio of compromises to total threat events
+D) 3/18 = 16.7% — the ratio of compromises to contacts
+
+Correct Answer: C
+Explanation: In FAIR, Vulnerability is the probability that a threat event results in a loss event. Here, there were 120 threat events (phishing emails) and 3 resulted in actual loss events (credential compromise), so Vulnerability = 3/120 = 2.5%. The click-through rate (15%) represents an intermediate step but not the final loss event.
+
+================================================================
+
+QUESTION 6 — FAIR Ontology
+Category: FAIR ontology
+
+Which of the following is an example of Secondary Loss in the FAIR model?
+
+A) The cost of hiring an incident response firm after a breach
+B) The salary cost of employees unable to work during system downtime
+C) Regulatory fines imposed six months after a data breach is disclosed
+D) The cost of replacing compromised hardware
+
+Correct Answer: C
+Explanation: Secondary Loss in FAIR refers to losses that result from the reaction of external stakeholders (regulators, customers, partners, media) to the primary loss event. Regulatory fines are a classic secondary loss. The other options — incident response costs (A), productivity loss (B), and replacement costs (D) — are all forms of Primary Loss that occur as a direct result of the event itself.
+
+================================================================
+
+QUESTION 7 — FAIR Ontology (Scenario)
+Category: FAIR ontology
+
+SCENARIO: A hospital's patient records database is breached by an external attacker. The hospital spends $200K on forensic investigation and system restoration, loses $150K in staff productivity during the outage, pays $1.2M in HIPAA fines, spends $800K on patient notification and credit monitoring, and estimates $2M in lost revenue from patients switching providers. What is the total Primary Loss?
+
+A) $350K
+B) $1.2M
+C) $2.15M
+D) $4.35M
+
+Correct Answer: A
+Explanation: Primary Loss includes direct costs from the event itself: forensic investigation and restoration ($200K) and productivity loss ($150K) = $350K. The HIPAA fines ($1.2M), notification/credit monitoring ($800K), and lost revenue from patient churn ($2M) are all Secondary Losses — they result from stakeholder reactions (regulator, patients) to the breach, not from the breach event itself.
+
+================================================================
+
+QUESTION 8 — FAIR Ontology
+Category: FAIR ontology
+
+In FAIR, the six forms of loss include productivity, response, replacement, fines/judgments, competitive advantage, and reputation. Which of these forms can appear as BOTH Primary and Secondary Loss?
+
+A) Fines/judgments only
+B) Reputation only
+C) All six forms can appear as either Primary or Secondary Loss
+D) Only productivity, response, and replacement
+
+Correct Answer: C
+Explanation: FAIR distinguishes Primary from Secondary Loss not by the type of loss but by the cause. Any of the six loss forms can be primary (directly caused by the threat agent's action) or secondary (caused by stakeholder reaction). For example, response costs can be primary (containing the breach) or secondary (responding to regulatory inquiries).
+
+================================================================
+
+QUESTION 9 — CRQ Outputs (Scenario)
+Category: CRQ outputs
+
+SCENARIO: You completed a FAIR analysis for a credential-stuffing attack against your SaaS platform. The Monte Carlo simulation produced these results: Median ALE = $1.8M, Mean ALE = $2.3M, 10th percentile = $420K, 90th percentile = $5.1M. Your CFO asks: "What's our worst realistic case?" Which figure should you present?
+
+A) $1.8M — the median is the most statistically reliable number
+B) $2.3M — the mean accounts for the skewed distribution
+C) $5.1M — the 90th percentile represents a reasonable worst-case scenario
+D) Multiply the 90th percentile by 2 for a true worst case
+
+Correct Answer: C
+Explanation: The 90th percentile ($5.1M) is the standard "reasonable worst case" in CRQ — it means there is a 10% chance annual losses will exceed this amount. It gives executives a credible upper bound without resorting to extreme tail scenarios. The median shows the most likely outcome, and the mean is skewed by outliers; neither captures the downside risk the CFO is asking about.
+
+================================================================
+
+QUESTION 10 — CRQ Outputs
+Category: CRQ outputs
+
+What does a Loss Exceedance Curve (LEC) show?
+
+A) The probability that losses will be exactly equal to a specific dollar amount
+B) The probability that losses will exceed each dollar amount on the x-axis
+C) The cumulative total of all losses over a multi-year period
+D) The frequency of past security incidents plotted over time
+
+Correct Answer: B
+Explanation: A Loss Exceedance Curve plots dollar amounts on the x-axis against the probability of exceeding that amount on the y-axis. It allows decision-makers to answer questions like "What is the probability that our annual losses exceed $2M?" — which is far more useful for risk appetite and insurance decisions than a single-point estimate.
+
+================================================================
+
+QUESTION 11 — CRQ Outputs (Scenario)
+Category: CRQ outputs
+
+SCENARIO: Your FAIR analysis shows the current ALE for a data exfiltration scenario is $1.5M–$4.2M (90th percentile: $4.2M). Implementing a DLP solution costs $280K/year and is estimated to reduce ALE to $400K–$1.1M. How would you frame the ROI for the CFO?
+
+A) "The DLP tool costs $280K and eliminates $4.2M in risk — a 15x return"
+B) "The expected loss reduction is $1.1M–$3.1M annually against a $280K investment, with the 90th percentile dropping from $4.2M to $1.1M"
+C) "We will save exactly $1.5M per year, making the payback period 2.2 months"
+D) "Risk will be reduced from High to Low after implementation"
+
+Correct Answer: B
+Explanation: Effective CRQ communication preserves ranges and avoids false precision. Option B presents the reduction as a range ($1.1M–$3.1M) and highlights the improvement in the worst-case scenario (90th percentile). Option A cherry-picks the highest number; C uses a false single-point estimate; D reverts to qualitative language, which defeats the purpose of quantitative analysis.
+
+================================================================
+
+QUESTION 12 — Calibrated Estimation
+Category: Calibrated estimation and sourcing inputs
+
+When using calibrated estimation (Hubbard's method), a subject-matter expert is asked to provide a 90% confidence interval. What does this mean?
+
+A) The expert is 90% sure the exact answer is the midpoint of their range
+B) The expert believes there is a 90% probability the true value falls within the range they provide
+C) The estimate has been validated against 90% of available industry data
+D) Nine out of ten experts would give the same answer
+
+Correct Answer: B
+Explanation: In calibrated estimation, a 90% confidence interval means the expert judges there is a 90% chance the true value lies within their stated range. Calibration training helps experts avoid overconfidence (ranges too narrow) and underconfidence (ranges too wide). This technique acknowledges uncertainty while still producing usable quantitative inputs for the FAIR model.
+
+================================================================
+
+QUESTION 13 — Calibrated Estimation (Scenario)
+Category: Calibrated estimation and sourcing inputs
+
+SCENARIO: You are estimating Threat Event Frequency for ransomware attacks against mid-sized healthcare organizations. You have no internal incident history. Which combination of sources would provide the most defensible inputs for your FAIR analysis?
+
+A) Use a single estimate from your IT director based on gut feeling
+B) Combine Verizon DBIR industry-specific rates, IBM Cost of a Data Breach healthcare data, and calibrated estimates from your security team using 90% confidence intervals
+C) Use the highest number you can find in any report to be conservative
+D) Skip the estimate and use the FAIR default values
+
+Correct Answer: B
+Explanation: Defensible FAIR inputs combine multiple sources: industry benchmarks (DBIR, IBM report) provide external data points, while calibrated SME estimates capture organization-specific context. Triangulating across sources produces more robust ranges than any single input. Using gut feeling alone (A) lacks rigor, cherry-picking maximums (C) introduces bias, and FAIR has no "default values" (D).
+
+================================================================
+
+QUESTION 14 — Executive Communication (Scenario)
+Category: Communicating CRQ to executives
+
+SCENARIO: You are presenting a FAIR analysis to the CFO and CISO. Your analysis of a supply chain compromise scenario produced an ALE range of $3.2M–$11.8M. The CFO says: "Just give me one number I can put in the budget." What is the best response?
+
+A) Give them the mean ($6.5M) since that's what they asked for
+B) Provide the 90th percentile ($11.8M) and recommend budgeting for that amount
+C) Explain that the range IS the answer, present the median for planning and the 90th percentile for contingency, and show which assumptions drive the width of the range
+D) Round to $10M for simplicity since executives prefer round numbers
+
+Correct Answer: C
+Explanation: Collapsing a range to a single number destroys the insight that makes CRQ valuable. The best approach educates the executive: use the median for baseline budgeting, the 90th percentile for contingency planning, and show which assumptions (if refined) would narrow the range. This preserves analytical integrity while giving the CFO actionable numbers for different planning purposes.
+
+================================================================
+
+QUESTION 15 — Executive Communication
+Category: Communicating CRQ to executives
+
+When presenting CRQ results to a non-technical executive audience, which practice MOST increases the credibility of your analysis?
+
+A) Using as many decimal places as possible to demonstrate precision
+B) Showing only the final dollar figure without mentioning assumptions or methodology
+C) Transparently disclosing key assumptions and explaining what would change the result
+D) Comparing your results to competitor breach costs reported in the media
+
+Correct Answer: C
+Explanation: Transparency about assumptions is the single most powerful credibility driver in CRQ presentations. Executives are trained to interrogate numbers — when you proactively show what drives your estimate and what would change it, you demonstrate analytical rigor rather than false confidence. Excessive decimal places (A) signal false precision, hiding assumptions (B) invites distrust, and media comparisons (D) lack methodological rigor.
+
+================================================================
+END OF QUIZ

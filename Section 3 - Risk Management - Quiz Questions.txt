@@ -1,0 +1,155 @@
+Risk Management — Quiz (10 Questions)
+Course: Cybersecurity Risk Management for IT Professionals
+Section 3: Risk Management
+================================================================
+
+QUESTION 1 — Risk Analysis Steps
+Category: Risk analysis process
+
+Which of the following is NOT one of the risk analysis steps covered in this section?
+
+A) Identify assets
+B) Identify vulnerabilities
+C) Publish a press release
+D) Determine safeguards and countermeasures
+
+Correct Answer: C
+Explanation: Risk analysis steps are: identify assets (scoping), identify vulnerabilities, identify exploits & threats, determine safeguards/countermeasures, and decide which risks are acceptable. Press releases are PR, not risk analysis.
+
+================================================================
+
+QUESTION 2 — CIA Triad
+Category: Risk identification
+
+Which element of the CIA Triad is compromised when data has been altered without authorization?
+
+A) Confidentiality
+B) Integrity
+C) Availability
+D) Accessibility
+
+Correct Answer: B
+Explanation: Integrity means data has not been altered. Confidentiality concerns whether only authorized users access the data; Availability concerns whether data is accessible when needed.
+
+================================================================
+
+QUESTION 3 — Risk Register (Scenario)
+Category: Risk identification
+
+SCENARIO: A risk manager is building a risk register entry for the threat of phishing attacks compromising user passwords. Which of the following is NOT a standard risk register feature covered in this section?
+
+A) Risk Statement and Risk ID
+B) Asset and Risk Rating
+C) Mitigation Plan and Cost of Mitigation
+D) Attacker's real name and IP address
+
+Correct Answer: D
+Explanation: A risk register documents Risk Statement, Risk ID, Asset, Risk Rating, Risk Treatment, Mitigation/Transfer Plan, Acceptance/Approval, Risk Impact, Risk Cause, and Cost of Mitigation. Attacker identity isn't a risk register field.
+
+================================================================
+
+QUESTION 4 — Likelihood Rating
+Category: Risk assessment
+
+Using the likelihood rating scale in this section, an event expected to occur every month would be rated as:
+
+A) Probably (3)
+B) Likely (4)
+C) Very Likely (5)
+D) Very Unlikely (1)
+
+Correct Answer: C
+Explanation: The scale: Very Unlikely (once in 5 years), Unlikely (once in 3 years), Probably (once a year), Likely (a few times a year), Very Likely (every month).
+
+================================================================
+
+QUESTION 5 — Risk Rating Matrix (Scenario)
+Category: Risk assessment
+
+SCENARIO: Your organization assesses a risk with a Likelihood of 5 (Very Likely) and an Impact of 4 (High). Using the risk rating matrix, how is this risk classified?
+
+A) Low Risk
+B) Medium Risk
+C) High Risk
+D) Unrated
+
+Correct Answer: C
+Explanation: Likelihood 5 × Impact 4 falls in the High Risk zone on the matrix. The scoring bands are: 1–7 Low, 7–17 Medium, 17–25 High.
+
+================================================================
+
+QUESTION 6 — Mitigation vs. Avoidance (Scenario)
+Category: Risk response
+
+SCENARIO: To address the risk of employees using personal devices for work, a company implements a strict "No BYOD" policy banning all personal devices from the corporate network. This is an example of:
+
+A) Risk Mitigation
+B) Risk Avoidance
+C) Risk Transference
+D) Risk Acceptance
+
+Correct Answer: B
+Explanation: Banning BYOD eliminates the risk entirely rather than reducing its likelihood — that's avoidance. Mitigation would be allowing BYOD but with MDM, encryption, etc. The key distinction: mitigation reduces risk to a minimum; avoidance eliminates it completely.
+
+================================================================
+
+QUESTION 7 — Risk Transference (Scenario)
+Category: Risk response
+
+SCENARIO: An organization can't afford to build the flood-proofing infrastructure needed to protect its data center, so it purchases a cyber insurance policy that covers flood-related data loss. This is an example of:
+
+A) Risk Mitigation
+B) Risk Avoidance
+C) Risk Transference
+D) Risk Acceptance
+
+Correct Answer: C
+Explanation: Risk transference assigns the risk (or its financial consequences) to another entity — commonly through insurance. It's typically used when the organization cannot mitigate the risk on its own due to cost.
+
+================================================================
+
+QUESTION 8 — Risk Acceptance vs. Risk Rejection
+Category: Risk response
+
+What distinguishes Risk Rejection from Risk Acceptance?
+
+A) Risk rejection means the risk is transferred; acceptance means it's mitigated
+B) Risk acceptance acknowledges a valid risk whose mitigation cost outweighs the loss; risk rejection means management believes the risk is invalid
+C) They mean exactly the same thing
+D) Risk rejection is used for compliance risks; acceptance is for operational risks
+
+Correct Answer: B
+Explanation: Risk acceptance is a deliberate decision to bear a valid risk because mitigation costs more than the potential loss. Risk rejection is different — it means management has judged the identified risk to be invalid or not a real risk worth responding to.
+
+================================================================
+
+QUESTION 9 — Risk Appetite
+Category: Risk management concepts
+
+Risk Appetite refers to:
+
+A) The specific dollar amount a company sets aside for security incidents
+B) A statement describing how much risk an organization is willing to accept
+C) The technical capacity of an organization's security tools
+D) The number of risks listed in the risk register
+
+Correct Answer: B
+Explanation: Risk appetite is an organization's statement of how much risk it is willing to accept. It varies between organizations based on budget, values, and the type of data they handle.
+
+================================================================
+
+QUESTION 10 — Risk Monitoring (Scenario)
+Category: Risk monitoring
+
+SCENARIO: Five years ago, phishing emails from your vendors were rare and easy to spot. Today, your team is seeing AI-generated voice phishing (vishing) and targeted sextortion attempts. Why does this illustrate the importance of Risk Monitoring?
+
+A) Because threats are static and predictable once identified
+B) Because risks identified once should be removed from the register after a year
+C) Because threats constantly evolve, requiring periodic re-evaluation and re-identification
+D) Because monitoring replaces the need for mitigation
+
+Correct Answer: C
+Explanation: Risk monitoring exists because threats are constantly evolving — phishing has progressed from simple emails to vishing and sextortion. This makes periodic reviews, re-evaluation, and re-identification of risks essential.
+
+================================================================
+END OF QUIZ
